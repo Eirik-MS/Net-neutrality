@@ -11,6 +11,12 @@
 .kol11 {grid-column: span 11}
 .kol12 {grid-column: span 12}
 
+.kol6 p{
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    margin-top: 0.1vw;
+}
+
 
 :root {
   /* fonts */
@@ -41,12 +47,6 @@
     flex-direction: row;
     font-family: sans-serif;
     font-size: 4vh;
-}
-
-.kol6 p{
-  font-size: 1.2vw;
-  margin-left: 1vw;
-  margin-top: 0.1vw;
 }
 
 header nav .aktiv {
