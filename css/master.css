@@ -80,13 +80,14 @@ main {
     margin: 3% 2% 3% 2%;
 }
 
-.net-neu {
+.net-neu{
   grid-column: 2/6;
 }
 
 .net-neu img{
   width: 100%
 }
+
 
 p {
     font-size: 60px;
