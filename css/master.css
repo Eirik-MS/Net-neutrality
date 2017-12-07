@@ -1,3 +1,17 @@
+.kol1 {grid-column: span 1}
+.kol2 {grid-column: span 2}
+.kol3 {grid-column: span 3}
+.kol4 {grid-column: span 4}
+.kol5 {grid-column: span 5}
+.kol6 {grid-column: span 6}
+.kol7 {grid-column: span 7}
+.kol8 {grid-column: span 8}
+.kol9 {grid-column: span 9}
+.kol10 {grid-column: span 10}
+.kol11 {grid-column: span 11}
+.kol12 {grid-column: span 12}
+
+
 :root {
   /* fonts */
   --main-font-family: 'Open Sans', sans-serif;
@@ -22,13 +36,46 @@
   font-size: 62.5%; /* 1 rem = 10 px */
 }
 
-body nav a {
+.header {
+    background-color: rgba(36, 36, 36, 0.35);
+    display: flex;
+    flex-direction: row;
     font-family: sans-serif;
-    font-size: 2vh;
+    font-size: 4vh;
+}
+
+header nav .aktiv {
+    background-color: rgba(255, 240, 251, 0.5);
+}
+
+header nav a {
+    flex-basis: 150px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    justify-content: left;
     text-decoration: none;
-    text-align: center;
-    justify-content: center;
+    color: #000000;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
 
+#nav-bar {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 5px auto;
 
+}
 
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px
+}
+
+#myCarousel {
+    min-height: 30vh;
+    background-color: orangered;
+    margin: 3% 3% 3% 3%;
 }
