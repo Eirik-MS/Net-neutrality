@@ -75,14 +75,17 @@ main {
 }
 
 #myCarousel {
-    min-height: 30vh;
+    min-height: 40vh;
     background-color: orangered;
-    margin: 3% 3% 3% 3%;
+    margin: 3% 2% 3% 2%;
 }
 
-.net-neu. {
-    width: 100%;
-    width: auto;
+.net-neu {
+  grid-column: 2/6;
+}
+
+.net-neu img{
+  width: 100%
 }
 
 p {
