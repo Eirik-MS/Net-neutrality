@@ -30,7 +30,7 @@ header nav a {
     flex-basis: 150px;
     flex-shrink: 1;
     flex-grow: 0;
-    justify-content: left;
+    justify-content: center;
     text-decoration: none;
     color: #2d2d2d;
     padding-top: 10px;
@@ -89,7 +89,7 @@ main {
     display: flex;
     flex-direction: row;
     font-family: sans-serif;
-    font-size: 4vh;
+    font-size: 1.2vw;
 }
 
 .net-neu{
