@@ -17,6 +17,10 @@
     margin-top: 0.1vw;
 }
 
+.kol6 h2{
+    margin-left: 25px;
+    margin-top: 10px;
+}
 
 :root {
   /* fonts */
@@ -92,12 +96,6 @@ main {
 .net-neu img{
   width: 100%
 }
-
-.kol6 h2{
-  margin-left: 25px;
-  margin-top: 10px;
-}
-
 
 p {
     font-size: 60px;

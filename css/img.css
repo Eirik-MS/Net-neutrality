@@ -1,0 +1,36 @@
+.grow-img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.grow-img img {
+    height: 300px;
+    width: 300px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    bold
+
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -o-filter: blur(0);
+    -ms-filter: blur(0);
+    -ms-filter: blur(0px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
+
+.growimg-img img:hover {
+width: 400px;
+height: 400px;
+filter: blur(5px);
+-webkit-filter: blur(5px);
+-moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter: url(blur.svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
+}'
