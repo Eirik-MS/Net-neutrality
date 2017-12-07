@@ -1,18 +1,4 @@
-.kol1 {grid-column: span 1}
-.kol2 {grid-column: span 2}
-.kol3 {grid-column: span 3}
-.kol4 {grid-column: span 4}
-.kol5 {grid-column: span 5}
-.kol6 {grid-column: span 6}
-.kol7 {grid-column: span 7}
-.kol8 {grid-column: span 8}
-.kol9 {grid-column: span 9}
-.kol10 {grid-column: span 10}
-.kol11 {grid-column: span 11}
-.kol12 {grid-column: span 12}
-
-
-
+/*1920x1080*/
 :root {
   /* fonts */
   --main-font-family: 'Open Sans', sans-serif;
@@ -84,6 +70,19 @@ main {
     background-color: orangered;
     margin: 3% 2% 3% 2%;
 }
+
+.kol1 {grid-column: span 1}
+.kol2 {grid-column: span 2}
+.kol3 {grid-column: span 3}
+.kol4 {grid-column: span 4}
+.kol5 {grid-column: span 5}
+.kol6 {grid-column: span 6}
+.kol7 {grid-column: span 7}
+.kol8 {grid-column: span 8}
+.kol9 {grid-column: span 9}
+.kol10 {grid-column: span 10}
+.kol11 {grid-column: span 11}
+.kol12 {grid-column: span 12}
 
 .header {
     background-color: rgba(36, 36, 36, 0.35);
