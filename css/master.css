@@ -93,11 +93,14 @@ main {
 }
 
 .net-neu{
-  grid-column: 2/6;
+  grid-column: 2/7;
 }
 
 .net-neu img{
   width: 100%;
   margin: auto;
   justify-content: center;
+}
+.Lorem {
+    grid-column: 8/12;
 }
