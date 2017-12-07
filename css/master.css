@@ -21,3 +21,14 @@
   box-sizing: border-box;
   font-size: 62.5%; /* 1 rem = 10 px */
 }
+
+body nav a {
+    font-family: sans-serif;
+    font-size: 2vh;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+
+
+
+}
