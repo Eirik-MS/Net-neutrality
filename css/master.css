@@ -6,9 +6,6 @@
   --code-font-family: 'Fira Mono', sans-serif;
 
   /* colors */
-  --blue: #90C3D4;
-  --pink: #ffb3b3;
-  --green: #CDDBD3;
   --almost-white: #f7f7f7;
   --light-light-gray: #E8E8E8;
   --light-gray: #ccc;
@@ -62,13 +59,13 @@ main {
     max-width: 1000px;
     min-width: 500px;
     margin: 5px auto;
-
+    text-decoration: none;
 }
 
 #myCarousel {
-    min-height: 40vh;
-    background-color: orangered;
+    min-height: 35vh;
     margin: 3% 2% 3% 2%;
+    background-color: inherit;
 }
 
 .kol1 {grid-column: span 1}
