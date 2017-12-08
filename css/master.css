@@ -54,7 +54,7 @@ div h2 {
 main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 
