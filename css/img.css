@@ -19,32 +19,33 @@ sa.footer{color:#efefef;text-align:center;margin-top:100px;}
 
 .image-frame img{
     max-width:100%;
-    transition: all .6s;
+    transition:all .6s;
 }
 .image-frame:hover img{
     transform: scale(1.1);
-    -webkit-filter:blur(2px);
+    -webkit-filter: blur(2px);
     filter: blur(2px);
 }
 
-.image-frame:hover span.text-content {
-    opacity: 1;
-    z-index:100;
-}
-span.text-content span {
-    display:
-    text-align: center;
-    justify-content: center;
-    vertical-align: middle;
+.image-frame a {
+    position: relative;
 }
 
-div a span.text-content {
+span.text-content {
+    display:none;
     background: rgba(0,0,0,0.5);
     color: white;
     text-align:center;
-    opacity: 0;
     position:absolute;
+    left: 100px;
+    top: 100px;
 }
+
+.image-frame:hover span.text-content {
+    display: block;
+    z-index:100;
+}
+
 /*@media screen and (max-width: 956px){
     .image-frame{width:47.25%;hieght:300px;}
     .image-frame img{height:325px;}
