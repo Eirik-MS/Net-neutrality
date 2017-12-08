@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lemonada|Poppins');
 h1{font-family: 'Lemonada', cursive;}
 p{font-family: 'Poppins', sans-serif;}
-img{color:#d6d6d6;text-decoration:none;}  img:hover{color:#999;}
-.footer{color:#efefef;text-align:center;margin-top:100px;}
+sa.footer{color:#efefef;text-align:center;margin-top:100px;}
 .content{
     height:auto;
     width:100%;
