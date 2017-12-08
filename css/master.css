@@ -89,6 +89,13 @@ main {
     font-size: 1.2vw;
 }
 
+.foot {
+    justify-content: center;
+    text-align: center;
+    border-top: solid black 3px;
+    margin-top: 40px;
+}
+
 /* .Lorem {
     grid-column: 8/12;
 }
