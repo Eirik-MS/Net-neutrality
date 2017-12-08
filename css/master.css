@@ -96,6 +96,9 @@ main {
     margin-top: 40px;
 }
 
+.ver.al p {
+    vertical-align: center;
+}
 /* .Lorem {
     grid-column: 8/12;
 }
