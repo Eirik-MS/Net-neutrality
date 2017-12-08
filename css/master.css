@@ -96,6 +96,21 @@ main {
     margin-top: 40px;
 }
 
+.banner{
+  background-color: var(--light-gray);
+  text-align: center;
+}
+
+.banner img{
+ height: 314px;
+ margin: 0;
+ padding: 0;
+}
+
+.text_over{
+  
+}
+
 /* .Lorem {
     grid-column: 8/12;
 }
