@@ -38,9 +38,9 @@ header nav a {
 }
 
 div p {
-    font-size: 1em;
+    margin-top: 1px ;
     margin-left: 1vw;
-    margin-top: 0.1vw;
+    font-size: 0.74rem;
 }
 
 div h2 {
@@ -51,7 +51,7 @@ div h2 {
 main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 
@@ -89,15 +89,8 @@ main {
     font-size: 1.2vw;
 }
 
-.net-neu{
-  grid-column: 2/7;
-}
-
-.net-neu img{
-  width: 100%;
-  margin: auto;
-  justify-content: center;
-}
-.Lorem {
+/* .Lorem {
     grid-column: 8/12;
 }
+
+elementet overflow none
