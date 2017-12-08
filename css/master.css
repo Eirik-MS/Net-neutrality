@@ -41,9 +41,9 @@ header nav a {
 }
 
 div p {
-    font-size: 1em;
+    margin-top: 1px ;
     margin-left: 1vw;
-    margin-top: 0.1vw;
+    font-size: 0.74rem;
 }
 
 div h2 {
@@ -92,15 +92,6 @@ main {
     font-size: 1.2vw;
 }
 
-.net-neu{
-  grid-column: 2/7;
-}
-
-.net-neu img{
-  width: 100%;
-  margin: auto;
-  justify-content: center;
-}
 /* .Lorem {
     grid-column: 8/12;
 }
