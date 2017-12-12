@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lemonada|Poppins');
-h1{font-family: 'Lemonada', cursive;}
 p{font-family: 'Poppins', sans-serif;}
 
 
@@ -47,6 +46,7 @@ span.text-content {
 .image-frame:hover span.text-content {
     display: block;
     z-index:100;
+    text-shadow: -0.5px 0 2px #f6f3f7;
 }
 
 /*@media screen and (max-width: 956px){
