@@ -54,6 +54,12 @@ main {
     grid-gap: 20px;
 }
 
+main article {
+    padding: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
 
 #nav-bar {
     max-width: 1000px;
