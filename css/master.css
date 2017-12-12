@@ -57,7 +57,9 @@ main {
 main article {
     padding: 2vw;
     margin-top: 3vw;
-    margin-bottom: 3vw;
+    padding-bottom: 3vw;
+    margin: solid black 2px;
+
 }
 
 
@@ -86,6 +88,10 @@ main article {
 .kol10 {grid-column: span 10}
 .kol11 {grid-column: span 11}
 .kol12 {grid-column: span 12}
+
+.kol4 img {
+    width: 100%;
+}
 
 .header {
     background-color: rgba(36, 36, 36, 0.35);
