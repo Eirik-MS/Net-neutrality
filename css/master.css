@@ -54,6 +54,21 @@ main {
     grid-gap: 20px;
 }
 
+main article {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    border-bottom: 3vw;
+    padding-bottom: 1.5vw;
+    padding-top: 1.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border: solid black 2px;
+}
+
+main article {
+    border: solid black 5px;
+}
+
 
 #nav-bar {
     max-width: 1000px;
@@ -106,6 +121,10 @@ main {
 .kol10 {grid-column: span 10}
 .kol11 {grid-column: span 11}
 .kol12 {grid-column: span 12}
+
+.kol4 img {
+    width: 100%;
+}
 
 .header {
     background-color: rgba(36, 36, 36, 0.35);
