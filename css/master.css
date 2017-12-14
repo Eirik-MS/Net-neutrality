@@ -55,11 +55,9 @@ main {
 }
 
 /*
-
 body {
     background-image:url("../img/egypt/protester-throws-back-tear-gas-canister-in-egypt-data.jpg");
 }
-
 */
 
 main article {
@@ -74,7 +72,7 @@ main article {
 }
 
 main article {
-    border: solid black 5px;
+    border: solid black 3px;
 }
 
 
@@ -160,7 +158,7 @@ main article {
   fill: #fff;
 }
 
-swrapper mask #mask{
+.wrapper mask #mask{
   width: 100%;
   height: 100%;
 }
