@@ -61,7 +61,6 @@ body {
 */
 
 main article {
-    margin-top: 3vw;
     margin-bottom: 3vw;
     border-bottom: 3vw;
     padding-bottom: 1.5vw;
@@ -73,6 +72,7 @@ main article {
 
 main article {
     border: solid black 3px;
+    font-size: 0.9vw
 }
 
 
