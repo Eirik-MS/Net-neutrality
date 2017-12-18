@@ -75,12 +75,23 @@ main article {
     font-size: 0.9vw
 }
 
+main article h2{
+  font-family: var(--heading-font-family)
+}
 
 #nav-bar {
     max-width: 1000px;
     min-width: 500px;
     margin: 5px auto;
     text-decoration: none;
+}
+
+#nav-bar a {
+  text-decoration: none;
+}
+
+#nav-bar a:hover {
+  color: black;
 }
 
 #myCarousel {

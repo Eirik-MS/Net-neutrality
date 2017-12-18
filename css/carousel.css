@@ -3,6 +3,7 @@
 /* Carousel base class */
 .carousel {
   margin-bottom: 20px;
+  height: 80vh;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -29,15 +30,19 @@
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: inherit;
 }
 
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 80vh;
 }
 
+.carousel-height{
+  height: 80vh;
+}
 
 .carousel-indicators {
   position: absolute;
