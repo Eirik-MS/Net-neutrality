@@ -156,8 +156,11 @@ main article h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 1.6vw;
+  font-size: 1.95vw;
   width: 100%;
+  text-align: center;
+  justify-items: center;
+    margin: 0 auto;
 }
 
 .wrapper svg > rect {
