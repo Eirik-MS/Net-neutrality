@@ -14,9 +14,9 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header nav .aktiv {
@@ -156,8 +156,11 @@ main article h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 1.6vw;
+  font-size: 1.95vw;
   width: 100%;
+  text-align: center;
+  justify-items: center;
+    margin: 0 auto;
 }
 
 .wrapper svg > rect {
@@ -174,8 +177,21 @@ main article h2{
   height: 100%;
 }
 
+.crop {
+    margin-bottom: -0px;
+}
+
 .right_text{
  /* grid-row: 2/4;
   grid-column: 6/12;*/
   justify-content: center;
+}
+
+/* Kina */
+#kina {
+  list-style: circle;
+  font-size: inherit;
+  padding:15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 11.84px;
 }
