@@ -158,6 +158,7 @@ main article h2{
   text-transform: uppercase;
   font-size: 1.6vw;
   width: 100%;
+  margin: 0 auto;
 }
 
 .wrapper svg > rect {
@@ -191,5 +192,19 @@ main article h2{
   padding:15px;
   font-family: 'Poppins', sans-serif;
   font-size: 11.84px;
+}
 
+.paragraf2 {
+  height:100%;
+  margin-top:20px;
+  padding-top:10px;
+}
+
+img {
+  height:100%;
+  padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
 }
