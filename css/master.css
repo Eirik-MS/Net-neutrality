@@ -24,7 +24,7 @@ header nav .aktiv {
 }
 
 header nav a {
-    flex-basis: 150px;
+    flex-basis: 800px;
     flex-shrink: 1;
     flex-grow: 0;
     justify-content: center;
@@ -84,6 +84,32 @@ main article h2{
     min-width: 500px;
     margin: 5px auto;
     text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+#nav-bar a {
+  padding: 20px 20px;
+  display: block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+#nav-bar a:hover {
+  background-color: #303030;
+  color: white;
+}
+
+#nav-bar a:active {
+    background-color: #555555;
+}
+
+.left {
+
 }
 
 #nav-bar a {
@@ -198,11 +224,12 @@ main article h2{
   height:100%;
   margin-top:20px;
   padding-top:10px;
+  margin-bottom:50px;
 }
 
 img {
-  height:100%;
-  padding-top: 20px;
+  max-height: 100%;
+  margin-top:50px;
 }
 
 h2 {
