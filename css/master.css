@@ -12,12 +12,60 @@
   --almost-black: #282828;
   --black: #000;
 }
-s
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* -------------------------------------------------*/
+
+
+
+
+body nav {
+    width: 100%;
+    transition: var(--smooth);
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row;
+    font-family: var(--main-font-family);
+    font-size: 1.4vw;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.25rem;
+    color: var(--almost-black);
+    list-style-type: none;
+    transition: var(--smooth);
+    padding: 2vw;
+}
+
+nav ul li {
+    flex: 1 1 auto; /* grow shrink basis */
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+nav ul li a {
+    font-size: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    transition: var(--smooth);
+}
+
+nav li a:hover {
+    color: var(--dark-primary-color);
+}
+
+
+
+
+/*--------------------------------------------*/
+
 
 header nav .aktiv {
     background-color: #282828;
