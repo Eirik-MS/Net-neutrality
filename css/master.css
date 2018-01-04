@@ -14,13 +14,13 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header nav .aktiv {
-    background-color: rgba(255, 240, 251, 0.5);
+    background-color: #282828;
 }
 
 header nav a {
@@ -29,7 +29,7 @@ header nav a {
     flex-grow: 0;
     justify-content: center;
     text-decoration: none;
-    color: #2d2d2d;
+    color: #282828;
     padding-top: 10px;
     padding-right: 40px;
     padding-left: 0px;
@@ -121,7 +121,7 @@ main article h2{
 }
 
 #myCarousel {
-    min-height: 35vh;
+    min-height: 40vh;
     margin: 3% 2% 3% 2%;
     background-color: inherit;
 }
@@ -184,6 +184,7 @@ main article h2{
   text-transform: uppercase;
   font-size: 1.6vw;
   width: 100%;
+  margin: 0 auto;
 }
 
 .wrapper svg > rect {
@@ -200,8 +201,36 @@ main article h2{
   height: 100%;
 }
 
+.crop {
+    margin-bottom: -0px;
+}
+
 .right_text{
  /* grid-row: 2/4;
   grid-column: 6/12;*/
   justify-content: center;
+}
+
+/* Kina */
+#kina {
+  list-style: circle;
+  font-size: inherit;
+  padding:15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 11.84px;
+}
+
+.paragraf2 {
+  height:100%;
+  margin-top:20px;
+  padding-top:10px;
+}
+
+img {
+  height:100%;
+  padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
 }
