@@ -135,7 +135,7 @@ main article h2{
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-
+    z-index: 1000;
 }
 
 #nav-bar a {
@@ -215,7 +215,8 @@ main article h2{
 
 .wrapper video {
     width: 100%;
-    height: 55vh;
+    height: 25vw;
+    margin-top: -40px;
 }
 
 .wrapper svg {
