@@ -6,6 +6,10 @@
   --code-font-family: 'Fira Mono', sans-serif;
 
   /* colors */
+  --blue: #3640af;
+  --purple: #60136e;
+  --orange: #ff8211;
+  --red: #6e0000;
   --almost-white: #f7f7f7;
   --light-light-gray: #E8E8E8;
   --light-gray: #ccc;
@@ -20,8 +24,6 @@
 }
 
 /* -------------------------------------------------*/
-
-
 
 
 body nav {
@@ -42,7 +44,7 @@ nav ul {
     color: var(--almost-black);
     list-style-type: none;
     transition: var(--smooth);
-    padding: 0vw;
+    padding: 0;
 }
 
 nav ul li {
@@ -60,8 +62,6 @@ nav ul li a {
 nav li a:hover {
     color: var(--dark-primary-color);
 }
-
-
 
 
 /*--------------------------------------------*/
@@ -126,8 +126,23 @@ main article {
 main article h2{
   font-family: var(--heading-font-family)
 }
+ #kina {
+   background-color: var(--red);
+   color: white;
+ }
 
-#nav-bar {
+ #syria {
+     background-color: var(--orange);
+ }
+
+ #egypt {
+     background-color: var(--purple);
+ }
+ #fcc {
+     background-color: var(--blue);
+ }
+
+ #nav-bar {
     max-width: 1000px;
     min-width: 500px;
     margin: 5px auto;
@@ -136,7 +151,7 @@ main article h2{
     display: flex;
     flex-flow: row nowrap;
     z-index: 1000;
-}
+ }
 
 #nav-bar a {
   padding: 20px 20px;
@@ -154,10 +169,6 @@ main article h2{
 
 #nav-bar a:active {
     background-color: #555555;
-}
-
-.left {
-
 }
 
 #nav-bar a {
@@ -267,22 +278,26 @@ main article h2{
   justify-content: center;
 }
 
-/* Kina */
-#kina {
-  list-style: circle;
-  font-size: inherit;
-  padding:15px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 11.84px; /*WTF is this?*/
-}
-
 .paragraf2 {
   height:100%;
   padding-top:10px;
   margin-bottom:50px;
+  border: none;
 }
 
 
 h2 {
   text-align: center;
+  text-transform: uppercase;
+  border-bottom: 4px double var(--red);
+  margin-bottom: 5px;
+}
+
+
+#kina a:hover {
+  color: black;
+}
+
+.bilde3 {
+  margin-top: 3vw;
 }
