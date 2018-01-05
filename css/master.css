@@ -42,7 +42,7 @@ nav ul {
     color: var(--almost-black);
     list-style-type: none;
     transition: var(--smooth);
-    padding: 1.9vw;
+    padding: 0vw;
 }
 
 nav ul li {
