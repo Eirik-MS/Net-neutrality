@@ -137,6 +137,7 @@ main article h2{
 
  #egypt {
      background-color: var(--purple);
+     color:white;
  }
  #fcc {
      background-color: var(--blue);
