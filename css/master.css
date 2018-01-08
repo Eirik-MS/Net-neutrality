@@ -133,13 +133,16 @@ main article h2{
 
  #syria {
      background-color: var(--orange);
+     color: white;
  }
 
  #egypt {
      background-color: var(--purple);
+     color: white;
  }
  #fcc {
      background-color: var(--blue);
+     color: white;
  }
 
  #nav-bar {
@@ -294,8 +297,8 @@ h2 {
 }
 
 
-#kina a:hover {
-  color: black;
+#home a:hover {
+  color: white;
 }
 
 .bilde3 {
