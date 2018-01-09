@@ -114,8 +114,13 @@ main article {
 }
 
 
-main article h2{
+main article h2 {
   font-family: var(--heading-font-family)
+}
+
+main article p {
+  font-family: var(--main-font-family);
+  font-size: 1.5rem;
 }
 
  #kina {
