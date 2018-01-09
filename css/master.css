@@ -64,9 +64,7 @@ nav li a:hover {
     color: var(--dark-primary-color);
 }
 
-
 /*--------------------------------------------*/
-
 
 header nav .aktiv {
     background-color: #282828;
@@ -135,7 +133,7 @@ main article h2{
 
  #egypt {
      background-color: var(--purple);
-     color:white;
+     color: white;
  }
  #fcc {
      background-color: var(--blue);
@@ -271,4 +269,9 @@ h2 {
 
 .bilde3 {
   margin-top: 3vw;
+}
+
+
+@media query {
+
 }
