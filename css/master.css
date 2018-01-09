@@ -25,6 +25,7 @@
 
 /* -------------------------------------------------*/
 
+/* navbar */
 
 body nav {
     width: 100%;
@@ -83,6 +84,8 @@ header nav a {
     font-size: 1.2vw;
 }
 
+/* main grid and spacing*/
+
 div p {
     margin-top: 1px ;
     margin-left: 1vw;
@@ -112,9 +115,18 @@ main article {
 }
 
 
-main article h2{
+main article h2 {
   font-family: var(--heading-font-family)
 }
+
+<<<<<<< HEAD
+main article p {
+  font-family: var(--main-font-family);
+  font-size: 1.5rem;
+}
+=======
+/* navbar colors */
+>>>>>>> cb89f1749c8f457eabc6c00820cad25f1749a7ee
 
  #kina {
    background-color: var(--red);
@@ -128,12 +140,18 @@ main article h2{
 
  #egypt {
      background-color: var(--purple);
+<<<<<<< HEAD
      color:white;
+=======
+     color: white;
+>>>>>>> 6ff53cf16832e08c541f6d5a7c84d751df85ad3e
  }
  #fcc {
      background-color: var(--blue);
      color: white;
  }
+
+/*--------*/
 
 #navbar{
   z-index: 1000;
@@ -145,8 +163,24 @@ main article h2{
     background-color: inherit;
 }
 
+<<<<<<< HEAD
 .kol4 {grid-column: 2/6}
 .kol5 {grid-column: 7/12}
+=======
+/* grid: spans */
+
+.kol1 {grid-column: span 1}
+.kol2 {grid-column: span 2}
+.kol3 {grid-column: span 3}
+.kol4 {grid-column: span 4}
+.kol5 {grid-column: span 5}
+.kol6 {grid-column: span 6}
+.kol7 {grid-column: span 7}
+.kol8 {grid-column: span 8}
+.kol9 {grid-column: span 9}
+.kol10 {grid-column: span 10}
+.kol11 {grid-column: span 11}
+>>>>>>> 6ff53cf16832e08c541f6d5a7c84d751df85ad3e
 .kol12 {grid-column: span 12}
 
 .kol4 img {
@@ -171,6 +205,8 @@ main article h2{
     border-top: solid black 3px;
     margin-top: 40px;
 }
+
+/* video header */
 
 .wrapper {
   position: relative;
@@ -218,6 +254,8 @@ main article h2{
   width: 100%;
   height: 100%;
 }
+
+/*---------*/
 
 .crop {
     margin-bottom: -0px;
