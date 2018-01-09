@@ -25,6 +25,7 @@
 
 /* -------------------------------------------------*/
 
+/* navbar */
 
 body nav {
     width: 100%;
@@ -63,9 +64,7 @@ nav li a:hover {
     color: var(--dark-primary-color);
 }
 
-
 /*--------------------------------------------*/
-
 
 header nav .aktiv {
     background-color: #282828;
@@ -84,6 +83,8 @@ header nav a {
     padding-bottom: 10px;
     font-size: 1.2vw;
 }
+
+/* main grid and spacing*/
 
 div p {
     margin-top: 1px ;
@@ -118,10 +119,14 @@ main article h2 {
   font-family: var(--heading-font-family)
 }
 
+<<<<<<< HEAD
 main article p {
   font-family: var(--main-font-family);
   font-size: 1.5rem;
 }
+=======
+/* navbar colors */
+>>>>>>> cb89f1749c8f457eabc6c00820cad25f1749a7ee
 
  #kina {
    background-color: var(--red);
@@ -142,6 +147,8 @@ main article p {
      color: white;
  }
 
+/*--------*/
+
 #navbar{
   z-index: 1000;
 }
@@ -151,6 +158,8 @@ main article p {
     margin: 3% 2% 3% 2%;
     background-color: inherit;
 }
+
+/* grid: spans */
 
 .kol1 {grid-column: span 1}
 .kol2 {grid-column: span 2}
@@ -183,6 +192,8 @@ main article p {
     border-top: solid black 3px;
     margin-top: 40px;
 }
+
+/* video header */
 
 .wrapper {
   position: relative;
@@ -231,6 +242,8 @@ main article p {
   height: 100%;
 }
 
+/*---------*/
+
 .crop {
     margin-bottom: -0px;
 }
@@ -263,4 +276,9 @@ h2 {
 
 .bilde3 {
   margin-top: 3vw;
+}
+
+
+@media query {
+
 }
