@@ -128,11 +128,7 @@ main article h2{
 
  #egypt {
      background-color: var(--purple);
-<<<<<<< HEAD
      color:white;
-=======
-     color: white;
->>>>>>> 637884cc65855480a0f7f7a25a567da36b0fa401
  }
  #fcc {
      background-color: var(--blue);
@@ -149,21 +145,16 @@ main article h2{
     background-color: inherit;
 }
 
-.kol1 {grid-column: span 1}
-.kol2 {grid-column: span 2}
-.kol3 {grid-column: span 3}
-.kol4 {grid-column: span 4}
-.kol5 {grid-column: span 5}
-.kol6 {grid-column: span 6}
-.kol7 {grid-column: span 7}
-.kol8 {grid-column: span 8}
-.kol9 {grid-column: span 9}
-.kol10 {grid-column: span 10}
-.kol11 {grid-column: span 11}
+.kol4 {grid-column: 2/6}
+.kol5 {grid-column: 7/12}
 .kol12 {grid-column: span 12}
 
 .kol4 img {
     width: 100%;
+}
+
+.kol5 img{
+  width: 100%;
 }
 
 .header {
@@ -263,6 +254,13 @@ h2 {
 }
 
 
-@media query {
+@media (max-width:1000px) {
+  .kol4{grid-column: 2/12}
+  .kol5{grid-column: 2/12}
+}
+
+@media (max-width:650px) {
+  .kol5{grid-column: 1/13}
+  .kol4{grid-column: 1/13}
 
 }
