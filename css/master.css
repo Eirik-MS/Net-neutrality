@@ -130,11 +130,7 @@ main article h2{
 
  #egypt {
      background-color: var(--purple);
-<<<<<<< HEAD
-     color:white;
-=======
      color: white;
->>>>>>> 637884cc65855480a0f7f7a25a567da36b0fa401
  }
  #fcc {
      background-color: var(--blue);
