@@ -25,6 +25,7 @@
 
 /* -------------------------------------------------*/
 
+/* navbar */
 
 body nav {
     width: 100%;
@@ -85,6 +86,8 @@ header nav a {
     font-size: 1.2vw;
 }
 
+/* main grid and spacing*/
+
 div p {
     margin-top: 1px ;
     margin-left: 1vw;
@@ -102,11 +105,6 @@ main {
     grid-gap: 20px;
 }
 
-/*
-body {
-    background-image:url("../img/egypt/protester-throws-back-tear-gas-canister-in-egypt-data.jpg");
-}
-*/
 
 main article {
     margin-bottom: 3vw;
@@ -115,17 +113,16 @@ main article {
     padding-top: 1.5vw;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-    border: solid black 2px;
+
 }
 
-main article {
-    border: solid black 3px;
-    font-size: 0.9vw
-}
 
 main article h2{
   font-family: var(--heading-font-family)
 }
+
+/* navbar colors */
+
  #kina {
    background-color: var(--red);
    color: white;
@@ -133,6 +130,7 @@ main article h2{
 
  #syria {
      background-color: var(--orange);
+     color: white;
  }
 
  #egypt {
@@ -141,44 +139,10 @@ main article h2{
  }
  #fcc {
      background-color: var(--blue);
+     color: white;
  }
 
- #nav-bar {
-    max-width: 1000px;
-    min-width: 500px;
-    margin: 5px auto;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    flex-flow: row nowrap;
-    z-index: 1000;
- }
-
-#nav-bar a {
-  padding: 20px 20px;
-  display: block;
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  opacity: 0.8;
-}
-
-#nav-bar a:hover {
-  background-color: #303030;
-  color: white;
-}
-
-#nav-bar a:active {
-    background-color: #555555;
-}
-
-#nav-bar a {
-  text-decoration: none;
-}
-
-#nav-bar a:hover {
-  color: black;
-}
+/*--------*/
 
 #navbar{
   z-index: 1000;
@@ -189,6 +153,8 @@ main article h2{
     margin: 3% 2% 3% 2%;
     background-color: inherit;
 }
+
+/* grid: spans */
 
 .kol1 {grid-column: span 1}
 .kol2 {grid-column: span 2}
@@ -221,6 +187,8 @@ main article h2{
     border-top: solid black 3px;
     margin-top: 40px;
 }
+
+/* video header */
 
 .wrapper {
   position: relative;
@@ -269,6 +237,8 @@ main article h2{
   height: 100%;
 }
 
+/*---------*/
+
 .crop {
     margin-bottom: -0px;
 }
@@ -295,8 +265,8 @@ h2 {
 }
 
 
-#kina a:hover {
-  color: black;
+#home a:hover {
+  color: white;
 }
 
 .bilde3 {
