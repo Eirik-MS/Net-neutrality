@@ -64,6 +64,48 @@ nav li a:hover {
     color: var(--dark-primary-color);
 }
 
+/*HOME-----------------------------------------*/
+
+.chinahover1:hover {
+  color: var(--red);
+}
+
+.egypthover1:hover {
+  color: var(--purple);
+}
+
+.syriahover1:hover {
+  color: var(--orange);
+}
+
+.fcchover1:hover {
+  color: var(--blue);
+}
+
+/*UNDERSIDER----------------------------------------*/
+
+.homehover2:hover {
+  background-color: white;
+  color: black;
+}
+
+.chinahover2:hover {
+  background-color: var(--red);
+}
+
+.egypthover2:hover {
+  background-color: var(--purple);
+}
+
+.syriahover2:hover {
+  background-color: var(--orange);
+}
+
+.fcchover2:hover {
+  background-color: var(--blue);
+}
+
+
 /*--------------------------------------------*/
 
 header nav .aktiv {
