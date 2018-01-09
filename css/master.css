@@ -63,9 +63,7 @@ nav li a:hover {
     color: var(--dark-primary-color);
 }
 
-
 /*--------------------------------------------*/
-
 
 header nav .aktiv {
     background-color: #282828;
@@ -258,4 +256,9 @@ h2 {
 
 .bilde3 {
   margin-top: 3vw;
+}
+
+
+@media query {
+
 }
