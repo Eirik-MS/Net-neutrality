@@ -139,7 +139,7 @@ div h2 {
 main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
+    grid-gap: 3rem;
 }
 
 
@@ -194,16 +194,17 @@ main article p {
     background-color: inherit;
 }
 
-.kol4 {grid-column: 2/6}
+.kol4 {grid-column: 2/7}
 .kol5 {grid-column: 7/12}
 .kol12 {grid-column: span 12}
 
 .kol4 img {
     width: 100%;
-}
+  }
 
 .kol5 img{
   width: 100%;
+  padding-top: 3vw;
 }
 
 .header {
