@@ -297,7 +297,7 @@ img {
 h2 {
   text-align: center;
   text-transform: uppercase;
-  border-bottom: 4px double var(--red);
+  border-bottom: 4px double #E8E8E8;
   margin-bottom: 5px;
 }
 
