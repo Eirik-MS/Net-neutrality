@@ -217,7 +217,7 @@ img {
 .kol1 {grid-column: span 1}
 .kol1 img {
     grid-column: span 1;
-    padding-top: 19%;
+    padding-top: 5%;
 }
 .kol2 {grid-column: span 2}
 
