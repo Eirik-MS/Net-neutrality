@@ -124,6 +124,11 @@ header nav a {
 }
 
 /* main grid and spacing*/
+div{
+    display: inline-block;
+    vertical-align: middle;
+
+}
 
 div p {
     margin-top: 1px ;
@@ -138,8 +143,17 @@ div h2 {
 
 main {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4.5rem;
+    max-width: 80vw;
+    margin: auto;
+}
+
+#indexx {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    max-width: 100vw;
 }
 
 
@@ -161,6 +175,11 @@ main article h2 {
 main article p {
   font-family: var(--main-font-family);
   font-size: 1.2rem;
+}
+
+img {
+    max-height: 100%;
+    width: 100%;
 }
 
  #kina {
@@ -194,25 +213,12 @@ main article p {
     background-color: inherit;
 }
 
-.kol4 {grid-column: 2/6}
-.kol5 {grid-column: 7/12}
-.kol12 {grid-column: span 12}
-
-.kol4 img {
-    width: 100%;
+.kol1 {grid-column: span 1}
+.kol1 img {
+    grid-column: span 1;
+    padding-top: 19%;
 }
-
-.kol5 img{
-  width: 100%;
-}
-
-.header {
-    background-color: rgba(36, 36, 36, 0.35);
-    display: flex;
-    flex-direction: row;
-    font-family: sans-serif;
-    font-size: 1.2vw;
-}
+.kol2 {grid-column: span 2}
 
 .foot {
     justify-content: center;
@@ -285,15 +291,13 @@ main article p {
 .paragraf2 {
   height:100%;
   padding-top:10px;
-  margin-bottom:50px;
-  border: none;
 }
 
 
 h2 {
   text-align: center;
   text-transform: uppercase;
-  border-bottom: 4px double var(--red);
+  border-bottom: 4px double #E8E8E8;
   margin-bottom: 5px;
 }
 
@@ -301,11 +305,6 @@ h2 {
 #home a:hover {
   color: white;
 }
-
-.bilde3 {
-  margin-top: 3vw;
-}
-
 
 @media (max-width:1000px) {
   .kol4{grid-column: 2/12}
